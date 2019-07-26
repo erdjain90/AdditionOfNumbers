@@ -13,7 +13,7 @@ public class SIPArchiveGenerator {
 
 		SipArchivalUtility sipArchivalUtilityObj = new SipArchivalUtility();
 		
-		numberOfXmls = sipArchivalUtilityObj.countOfXmls();
+		//numberOfXmls = sipArchivalUtilityObj.countOfXmls();
 		
 		numberOfBatches = getBatchCount(numberOfXmls);
 		
